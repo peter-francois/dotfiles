@@ -111,3 +111,5 @@ source $ZSH/oh-my-zsh.sh
 
 # Navigation intelligente
 eval "$(zoxide init zsh)"
+
+. "$HOME/.local/bin/env"
