@@ -23,6 +23,8 @@
 ## Outils
 - Python : utilise `uv` (`uv add`, `uv run`), pas `pip` directement.
 - JS/TS : utilise le gestionnaire de paquets du projet (repère le fichier lock : `pnpm-lock.yaml`, `package-lock.json`, `bun.lock`…).
+- Pour la documentation d'une librairie ou d'un framework, utilise Context7 plutôt que ta mémoire.
+- Mes tâches sont dans Linear : quand je cite un ticket (ex. `ABC-123`), lis-le avant de commencer.
 
 ## Git
 - Messages de commit au format Conventional Commits (`feat:`, `fix:`, `chore:`, `refactor:`, `docs:`, `test:`).
