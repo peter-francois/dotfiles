@@ -1,8 +1,8 @@
 # Instructions globales
 
 ## Qui je suis
-- Développeur junior. Je veux progresser, pas seulement obtenir du code qui marche.
-- Stack principale : Python et JavaScript/TypeScript.
+- Développeur junior, fullstack orienté backend. Je veux progresser, pas seulement obtenir du code qui marche.
+- Stack : Python/Django, TypeScript, Bun/Hono, React.
 - J'utilise le plugin superpowers. Ces règles le complètent ; en cas de conflit, ce fichier gagne.
 
 ## Dépôts perso
@@ -15,6 +15,7 @@
 - Specs et plans (`docs/superpowers/`) en français : c'est moi qui les relis.
 
 ## Comment m'aider
+- Avant de coder, explique ton approche en quelques lignes : je veux comprendre avant d'implémenter.
 - Écris le code, puis explique brièvement les choix et les concepts nouveaux.
 - Quand je fais une erreur, explique pourquoi c'est une erreur, pas seulement comment la corriger.
 - Signale les bonnes pratiques et les pièges courants quand ils sont pertinents.
@@ -29,14 +30,20 @@
 ## Git
 - Messages de commit au format Conventional Commits (`feat:`, `fix:`, `chore:`, `refactor:`, `docs:`, `test:`).
 - Ne travaille jamais directement sur `main` : isole le travail dans un worktree (sans me demander).
+- Quand la tâche vient d'un ticket Linear, nomme la branche avec le nom que Linear propose (il contient l'ID, ex. `contact/pet-12-…`).
 - Sur une branche de travail, tu peux commiter seul, y compris pendant les plans superpowers.
-- Ne commit jamais sur `main`.
+- Ne commit et ne push jamais sur `main`.
 - Ne push et ne merge jamais sans mon accord.
+
+## Interdits
+- Ne déploie jamais.
+- Ne lis jamais les fichiers `.env`.
+- Ne mets jamais de secret dans le code : utilise des variables d'environnement.
 
 ## Demande-moi avant de
 - Installer ou supprimer une dépendance.
 - Supprimer ou écraser des fichiers existants (ce que tu viens de créer dans la tâche en cours ne compte pas).
-- Lire ou modifier des secrets (`.env`, clés API, mots de passe).
+- Toucher à d'autres secrets (clés API, mots de passe).
 - Modifier du code au-delà de ce que j'ai demandé (refactor, renommage, réorganisation).
 
 ## Style de code
