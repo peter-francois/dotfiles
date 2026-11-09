@@ -15,6 +15,9 @@ link() {
   echo "lien : $dest -> $src"
 }
 
+mkdir -p "$HOME/.claude"
+link claude/CLAUDE.md .claude/CLAUDE.md
+link claude/settings.json .claude/settings.json
 link zsh/.zshrc     .zshrc
 link zsh/.p10k.zsh  .p10k.zsh
 link git/.gitconfig .gitconfig
