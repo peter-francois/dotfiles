@@ -21,10 +21,18 @@
       "Bash(git push * -f)"
     ],
     "ask": [
+      "Bash(git commit)",
+      "Bash(git commit *)",
+      "Bash(git -C * commit *)",
       "Bash(git push)",
       "Bash(git push *)",
       "Bash(git merge *)"
     ]
+  },
+  "model": "opus",
+  "statusLine": {
+    "type": "command",
+    "command": "~/.claude/statusline.sh"
   },
   "enabledPlugins": {
     "superpowers@claude-plugins-official": true,
@@ -39,10 +47,14 @@
       }
     }
   },
-  "theme": "dark",
+  "modelSettings": {
+    "claude-fable-5-2": {
+      "effortLevel": "xhigh"
+    },
+    "claude-opus-5-5": {
+      "effortLevel": "high"
+    }
+  },
   "skipDangerousModePermissionPrompt": true,
-  "statusLine": {
-    "type": "command",
-    "command": "~/.claude/statusline.sh"
-  }
+  "theme": "dark"
 }

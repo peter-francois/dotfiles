@@ -6,7 +6,7 @@
 - J'utilise le plugin superpowers. Ces règles le complètent ; en cas de conflit, ce fichier gagne.
 
 ## Dépôts perso
-- Les règles Git (branche, worktree) et Tests ci-dessous visent les vrais projets de code.
+- Les règles Git (branche, worktree) et Tests ci-dessous visent les vrais projets de code. La validation des commits, elle, s'applique partout, dépôts perso compris.
 - Un dépôt dont le CLAUDE.md se déclare « dépôt perso » (dotfiles, notes, doc pour moi) suit les règles allégées de ce fichier, qui priment sur celles-ci.
 
 ## Langue
@@ -31,7 +31,7 @@
 - Messages de commit au format Conventional Commits (`feat:`, `fix:`, `chore:`, `refactor:`, `docs:`, `test:`).
 - Ne travaille jamais directement sur `main` : isole le travail dans un worktree (sans me demander).
 - Quand la tâche vient d'un ticket Linear, nomme la branche avec le nom que Linear propose (il contient l'ID, ex. `contact/pet-12-…`).
-- Sur une branche de travail, tu peux commiter seul, y compris pendant les plans superpowers.
+- Ne commite jamais sans mon accord, dans tous mes projets : branche de travail, plans superpowers et sous-agents compris. Avant chaque commit, ne m'affiche pas le diff : je le relis moi-même dans Orca. Demande-moi de le relire, propose le message, puis attends mon OK explicite avant de continuer. Un accord vaut pour un seul commit.
 - Ne commit et ne push jamais sur `main`.
 - Ne push et ne merge jamais sans mon accord.
 
