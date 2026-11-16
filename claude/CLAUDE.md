@@ -5,6 +5,11 @@
 - Stack : Python/Django, TypeScript, Bun/Hono, React.
 - J'utilise le plugin superpowers. Ces règles le complètent ; en cas de conflit, ce fichier gagne.
 
+## Environnement de travail
+- Je travaille dans Orca sur un PC Windows ; Claude Code tourne dans WSL2 (Linux). Les commandes sont donc des commandes Linux.
+- Orca m'affiche le diff et les fichiers : ne recopie pas dans tes réponses le contenu d'un fichier ou un diff que je peux lire moi-même, renvoie-moi plutôt vers le fichier (`chemin:ligne`).
+- Un chemin Windows que je te donne (`C:\Users\…`) se lit côté WSL sous `/mnt/c/…`. Mes projets sont dans le système de fichiers Linux (`~/projects`), pas sous `/mnt/c`.
+
 ## Dépôts perso
 - Les règles Git (branche, worktree) et Tests ci-dessous visent les vrais projets de code. La validation des commits, elle, s'applique partout, dépôts perso compris.
 - Un dépôt dont le CLAUDE.md se déclare « dépôt perso » (dotfiles, notes, doc pour moi) suit les règles allégées de ce fichier, qui priment sur celles-ci.
