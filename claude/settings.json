@@ -26,7 +26,20 @@
       "Bash(git -C * commit *)",
       "Bash(git push)",
       "Bash(git push *)",
-      "Bash(git merge *)"
+      "Bash(git merge *)",
+      "mcp__claude_ai_Linear__save_*",
+      "mcp__claude_ai_Linear__create_*",
+      "mcp__claude_ai_Linear__delete_*",
+      "mcp__claude_ai_Linear__update_*",
+      "mcp__claude_ai_Linear__merge_*",
+      "mcp__claude_ai_Linear__restore_*",
+      "mcp__claude_ai_Linear__retire_*",
+      "mcp__claude_ai_Linear__share_*",
+      "mcp__claude_ai_Linear__unshare_*",
+      "mcp__claude_ai_Linear__submit_*",
+      "mcp__claude_ai_Linear__resolve_*",
+      "mcp__claude_ai_Linear__mark_*",
+      "mcp__claude_ai_Linear__prepare_*"
     ]
   },
   "model": "opus",
