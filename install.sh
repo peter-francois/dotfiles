@@ -17,11 +17,13 @@ link() {
 
 mkdir -p "$HOME/.claude"
 link claude/CLAUDE.md .claude/CLAUDE.md
-link claude/settings.json .claude/settings.json
 link claude/statusline.sh .claude/statusline.sh
 link zsh/.zshrc     .zshrc
 link zsh/.p10k.zsh  .p10k.zsh
 link git/.gitconfig .gitconfig
+
+# Orca rewrites this file at startup and replaces symlinks, so merge instead of linking
+python3 -I "$DOTFILES/claude/merge-settings.py" "$DOTFILES/claude/settings.json" "$HOME/.claude/settings.json"
 
 # Plugins Oh My Zsh : ils sont clonés à part, donc pas dans le repo
 ZSH_CUSTOM="${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}"

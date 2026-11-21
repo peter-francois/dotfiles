@@ -17,3 +17,4 @@ C'est un dépôt perso : les règles allégées du CLAUDE.md global s'appliquent
 ## Structure
 - `install.sh` : crée les liens symboliques de ce dépôt vers `$HOME`.
 - `claude/CLAUDE.md` : mon CLAUDE.md global (lié vers `~/.claude/CLAUDE.md`). Ne pas le confondre avec ce fichier.
+- `claude/settings.json` : mes réglages Claude, sans les hooks d'Orca. Ne pas le lier : Orca réécrit `~/.claude/settings.json` à son démarrage. `install.sh` fusionne ce fichier dedans avec `claude/merge-settings.py`.
