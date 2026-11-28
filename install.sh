@@ -22,6 +22,7 @@ link zsh/.zshrc     .zshrc
 link zsh/.p10k.zsh  .p10k.zsh
 link git/.gitconfig .gitconfig
 
+# # ~/.claude/skills also holds skills from other repos and tools, so link each skill instead of the whole folder
 mkdir -p "$HOME/.claude/skills"
 for dir in "$DOTFILES"/claude/skills/*/; do
   [ -d "$dir" ] || continue
